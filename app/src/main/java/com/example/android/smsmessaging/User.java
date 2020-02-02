@@ -85,7 +85,10 @@ public class User
     public String toMessage()
     {
         String s = "";
-        s+=getName()+getplink()+getGender()+ getMessage();
+        s+="Name: " + getName()+"\n";
+        s+="Link to Profile Pic: "+getplink()+"\n";
+        s+="Gender: "+getGender()+ "\n";
+        s+="Message: "+ getMessage();
         return s;
     }
     private static final User cuse= new User();
