@@ -36,4 +36,6 @@ limitations under the License. -->
     <string name="granted_permission">Permission Granted</string>
     <string name="title_activity_profile_page">ProfilePage</string>
     <string name="title_activity_map_page">MapPage</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDqMCmu0j2EelwEiOT04WGVhWJjNHexY8o</string>
 </resources>

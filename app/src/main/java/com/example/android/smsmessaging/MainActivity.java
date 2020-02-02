@@ -21,8 +21,10 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
@@ -32,6 +34,18 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 import android.widget.Switch;
 
+//import com.google.android.gms.maps.GoogleMap;
+//import com.google.android.gms.maps.MapView;
+//import com.google.android.gms.maps.OnMapReadyCallback;
+//import com.google.android.gms.maps.model.LatLng;
+//import com.google.android.gms.maps.model.MarkerOptions;
+
+//import android.support.annotation.NonNull;
+//import android.view.Menu;
+//import android.view.MenuItem;
+
+import com.google.android.gms.maps.MapView;
+
 
 /**
  * This app provides SMS features that enable the user to:
@@ -40,6 +54,10 @@ import android.widget.Switch;
  * - Receive SMS messages and display them in a toast.
  */
 public class MainActivity extends AppCompatActivity {
+
+//    private GoogleMap mGoogleMap;
+//    private MapView mMapView;
+    //private static final String MAPVIEW_BUNDLE_KEY = "MapViewBundleKey";
 
     private Button button2;
     private Button button3;
@@ -74,6 +92,17 @@ public class MainActivity extends AppCompatActivity {
                 openActivity3();
             }
         });
+
+
+
+//        Bundle mapViewBundle = null;
+//        if (savedInstanceState != null) {
+//            mapViewBundle = savedInstanceState.getBundle(MAPVIEW_BUNDLE_KEY);
+//        }
+//
+//        mMapView = (MapView) findViewById(R.id.map_view); // CHECK THIS
+//        mMapView.onCreate(mapViewBundle); // uh oh stinky
+//        mMapView.getMapAsync(this);
     }
 
     public void openActivity2(){
@@ -212,5 +241,59 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
+    // GOOGLE MAPS STUFF
+//    @Override
+//    public void onSaveInstanceState(Bundle outState) {
+//        super.onSaveInstanceState(outState);
+//
+//        Bundle mapViewBundle = outState.getBundle(MAPVIEW_BUNDLE_KEY);
+//        if (mapViewBundle == null) {
+//            mapViewBundle = new Bundle();
+//            outState.putBundle(MAPVIEW_BUNDLE_KEY, mapViewBundle);
+//        }
+//
+//        mMapView.onSaveInstanceState(mapViewBundle);
+//    }
+//
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        mMapView.onResume();
+//    }
+//
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//        mMapView.onStart();
+//    }
+//
+//    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        mMapView.onStop();
+//    }
+//
+//    @Override
+//    public void onMapReady(GoogleMap map) {
+//        LatLng ny = new LatLng(40.7143528, -74.0059731);
+//        map.addMarker(new MarkerOptions().position(ny).title("Marker"));
+//    }
+//
+//    @Override
+//    protected void onPause() {
+//        mMapView.onPause();
+//        super.onPause();
+//    }
+//
+//    @Override
+//    protected void onDestroy() {
+//        mMapView.onDestroy();
+//        super.onDestroy();
+//    }
+//
+//    @Override
+//    public void onLowMemory() {
+//        super.onLowMemory();
+//        mMapView.onLowMemory();
+//    }
 }

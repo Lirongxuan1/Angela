@@ -12,46 +12,56 @@
         android:id="@+id/nameInput"
         android:layout_width="277dp"
         android:layout_height="51dp"
+        android:hint="Enter a name"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <EditText
         android:id="@+id/phoneInput"
         android:layout_width="277dp"
         android:layout_height="51dp"
+        android:hint="Enter a phone number"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintVertical_bias="0.251" />
 
     <EditText
         android:id="@+id/profilePicInput"
         android:layout_width="277dp"
         android:layout_height="51dp"
+        android:hint="Enter a Social Media Link"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintVertical_bias="0.395" />
 
     <EditText
         android:id="@+id/genderInput"
         android:layout_width="277dp"
         android:layout_height="51dp"
+        android:hint="Enter a gender"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintVertical_bias="0.543" />
 
     <Button
         android:id="@+id/submitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="152dp"
+        android:layout_height="84dp"
         android:layout_marginStart="160dp"
         android:layout_marginLeft="160dp"
         android:layout_marginTop="64dp"
         android:text="Submit"
+        android:textColorHint="#00D81111"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/nameInput"
         app:layout_constraintStart_toStartOf="@+id/nameInput"
