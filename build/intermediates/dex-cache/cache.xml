@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\94247a8a0b340d9ce5e1a116e30c5aaad208f3a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_2c526ebe8e31ba3644c973223cce230f55416f37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\399719554376c9e79a3f2ac1ec69ec085f257d17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_f3a1bfaa2519b4476f922cbc14acd73c903e1f91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\7728b3661b72f93935f6b8536f605edb423a570b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_9589d8d18ce2a19f1979331f8e6b3f7a515cd2fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\1dccd6d06e4b338ea978b9a7d9deb51df08d713c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_61214b133bb2bad53bb22db01e3e3c37e31e6f3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\e566b14311d28c051cbe2ac90d8b848f8a1f18ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_ad84b162d42212c1b91de26522b94ea7a6d7549a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\662eb0704b2a792e56fbf065c37e760d1b8ef918\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_f6e550111aa564161b1d689a756a0f8d854226a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\b36f223d7054b36bfaf50ae3cc56c37703c9fac7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_21c3b8f25799ed731e750e74c265b43aeb27ef5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Liron\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.2.0\4a5a82a027706397fff621b22fd6fa796e91d7c5\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_fe291e7be7f8a62dbb2571afd30554cfabc70e26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\070c4157b824bda1dcc1c90fa3d75cc54567d962\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_a26bdecfa917c795c8b90b73eeb88776f42eb649.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\5b17970dc580379735731008f2ed3cf021dc6323\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Liron\Desktop\SmsMessaging\app\build\intermediates\pre-dexed\debug\classes_42cc2ea7731f0ffb4c1bf4e2d1ea8fcfd3229eba.jar" />
+    </item>
+
+</items>
