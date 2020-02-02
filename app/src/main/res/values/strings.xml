@@ -35,4 +35,5 @@ limitations under the License. -->
     <string name="sms_disabled">SMS usage disabled</string>
     <string name="granted_permission">Permission Granted</string>
     <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="title_activity_map_page">MapPage</string>
 </resources>

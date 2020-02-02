@@ -42,6 +42,7 @@ import android.widget.Switch;
 public class MainActivity extends AppCompatActivity {
 
     private Button button2;
+    private Button button3;
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 1;
     User i = new User();
@@ -66,10 +67,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button3 = (Button) findViewById(R.id.mapButton);
+        button3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void  onClick(View V){
+                openActivity3();
+            }
+        });
     }
 
     public void openActivity2(){
         Intent intent = new Intent(this, ProfilePage.class);
+        startActivity(intent);
+    }
+
+    public void openActivity3(){
+        Intent intent = new Intent(this, MapPage.class);
         startActivity(intent);
     }
 

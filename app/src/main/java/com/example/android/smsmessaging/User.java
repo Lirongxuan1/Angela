@@ -5,7 +5,7 @@ public class User
 {
     private String username;        // User name
     // gender, 0 is female // 1 is male //2 is other
-    private int gender;
+    private String gender;
     private String pnum;
     private String plink;
     private boolean isBusiness;
@@ -16,7 +16,7 @@ public class User
     /* Constructors */
     public User()
     {
-        gender = 2;
+        String gender = "";
         pnum = "";
         plink = "";
         isBusiness = false;
@@ -37,12 +37,12 @@ public class User
     {
         return username;
     }
-    public void setGender(int g)
+    public void setGender(String g)
     {
         gender = g;
     }
 
-    public int getGender()
+    public String getGender()
     {
         return gender;
     }

@@ -806,6 +806,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id fixed
+id genderInput
 id gone
 id groups
 id home
@@ -842,8 +843,10 @@ id parallax
 id parent
 id parentPanel
 id percent
+id phoneInput
 id pin
 id profileButton
+id profilePicInput
 id progress_circular
 id progress_horizontal
 id pub

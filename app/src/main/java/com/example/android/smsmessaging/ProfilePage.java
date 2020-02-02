@@ -13,7 +13,15 @@ import android.widget.Button;
 
 public class ProfilePage extends AppCompatActivity {
     String name;
+    String phone;
+    String profilePic;
+    String gender;
+
     EditText nameText;
+    EditText phoneText;
+    EditText profilePicText;
+    EditText genderText;
+
     Button submitButton;
 
     @Override
@@ -24,13 +32,23 @@ public class ProfilePage extends AppCompatActivity {
 
 
         nameText=  (EditText)findViewById(R.id.nameInput);
+        phoneText=  (EditText)findViewById(R.id.phoneInput);
+        profilePicText=  (EditText)findViewById(R.id.profilePicInput);
+        genderText=  (EditText)findViewById(R.id.genderInput);
+
         submitButton = (Button) findViewById(R.id.submitButton);
+
+
 
         submitButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 User i = new User();
                 i.cuser().setName(nameText.getText().toString());
+
+                i.cuser().setpnum (phoneText.getText().toString());
+                i.cuser().setplink (profilePicText.getText().toString());
+                i.cuser().setGender (genderText.getText().toString());
             }
         });
 

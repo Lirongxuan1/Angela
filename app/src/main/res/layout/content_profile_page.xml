@@ -17,6 +17,33 @@
         app:layout_constraintVertical_bias="0.118"
         tools:layout_editor_absoluteX="55dp" />
 
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <EditText
+        android:id="@+id/profilePicInput"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <EditText
+        android:id="@+id/genderInput"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"
+        tools:layout_editor_absoluteX="55dp" />
+
     <Button
         android:id="@+id/submitButton"
         android:layout_width="wrap_content"
@@ -30,4 +57,5 @@
         app:layout_constraintStart_toStartOf="@+id/nameInput"
         app:layout_constraintTop_toBottomOf="@+id/nameInput"
         app:layout_constraintVertical_bias="0.563" />
+
 </android.support.constraint.ConstraintLayout>
